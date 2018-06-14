@@ -8,3 +8,10 @@ export NAO_IP=$ROS_IP
 export ROS_MASTER_URI=http://127.0.0.1:11311
 
 source /home/nao/.ros-root/ros1_inst/setup.bash
+
+export ROS_INTERFACE=eth0
+export LOCAL_IP=`ifconfig $ROS_INTERFACE | grep "inet " | cut -d ' ' -f 10`
+export ROS_MASTER_IP=169.254.114.121
+export ROS_MASTER_URI=http://$ROS_MASTER_IP:11311
+export ROS_HOSTNAME=$LOCAL_IP
+export ROS_IP=$LOCAL_IP

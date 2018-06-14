@@ -6,6 +6,9 @@ PYTHON2_VERSION=2.7.13
 
 INSTALL_ROOT=.ros-root
 
+export AL_DIR=/home/gro/naoqi-sdk
+export ALDE_CTC_CROSS=/home/gro/ctc-linux64-atom-2.5.2.74
+
 if [ -z "$ALDE_CTC_CROSS" ]; then
   echo "Please define the ALDE_CTC_CROSS variable with the path to Aldebaran's Crosscompiler toolchain"
   exit 1

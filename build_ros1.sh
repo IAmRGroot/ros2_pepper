@@ -9,6 +9,9 @@ INSTALL_ROOT=.ros-root
 
 set -euf -o pipefail
 
+export AL_DIR=/home/gro/naoqi-sdk
+export ALDE_CTC_CROSS=/home/gro/ctc-linux64-atom-2.5.2.74
+
 if [ -z "$ALDE_CTC_CROSS" ]; then
   echo "Please define the ALDE_CTC_CROSS variable with the path to Aldebaran's Crosscompiler toolchain"
   exit 1
@@ -45,7 +48,6 @@ docker run -it --rm \
     export PATH=/home/nao/${INSTALL_ROOT}/Python-${PYTHON2_VERSION}/bin:$PATH && \
     export PKG_CONFIG_PATH=/home/nao/${INSTALL_ROOT}/ros1_dependencies/lib/pkgconfig && \
     cd pepper_ros1_ws && \
-    vcs import src < pepper_ros1.repos && \
     touch src/orocos_kinematics_dynamics/python_orocos_kdl/CATKIN_IGNORE && \
     ./src/catkin/bin/catkin_make_isolated --install --install-space /home/nao/${INSTALL_ROOT}/ros1_inst -DCMAKE_BUILD_TYPE=Release \
     --cmake-args \
