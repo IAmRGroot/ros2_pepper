@@ -1,3 +1,14 @@
+## Disclaimer
+
+This repo is not maintained. It is used as a base for my master thesis (https://github.com/Robert16296/Pepper-Dev).
+
+Changes
+
+- Separated getting the repos and building the repos to enable editing source code. Not recommended, but an easy fix for small bugs. 
+- Added boot_config files
+- Edited Pepper source file
+
+
 ## Introduction
 
 This project contains a set of patches and scripts to compile and run ROS 1 and ROS 2 onboard a Pepper robot, without the need of a tethered computer.
