@@ -18,6 +18,9 @@ export ROS_PEPPER_CI=''
 
 set -euf -o pipefail
 
+export AL_DIR=/home/gro/naoqi-sdk
+export ALDE_CTC_CROSS=/home/gro/ctc-linux64-atom-2.5.2.74
+
 if [ -z "$ALDE_CTC_CROSS" ]; then
   echo "Please define the ALDE_CTC_CROSS variable with the path to Aldebaran's Crosscompiler toolchain"
   exit 1
