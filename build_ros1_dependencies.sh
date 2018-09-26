@@ -12,6 +12,10 @@ PYTHON3_VERSION=${PYTHON3_MAJOR_VERSION}.${PYTHON3_MINOR_VERSION}.${PYTHON3_PATC
 
 INSTALL_ROOT=.ros-root
 
+export AL_DIR=/home/gro/naoqi-sdk
+export ALDE_CTC_CROSS=/home/gro/ctc-linux64-atom-2.5.2.74
+export ROS_PEPPER_CI=''
+
 set -euf -o pipefail
 
 if [ -z "$ALDE_CTC_CROSS" ]; then
