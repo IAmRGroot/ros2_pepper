@@ -1,6 +1,6 @@
-## Disclaimer
+# Disclaimer
 
-This repo is not maintained. It is used as a base for my master thesis (https://github.com/Robert16296/Pepper-Dev).
+This repo is not maintained. It is used as a base for my master thesis (https://github.com/Robert16296/Pepper-Dev). Updated instructions for this version can also be found on that repo.
 
 Changes
 
@@ -8,6 +8,7 @@ Changes
 - Added boot_config files
 - Edited Pepper source file
 
+# Original README
 
 ## Introduction
 
