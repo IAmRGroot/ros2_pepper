@@ -1,0 +1,96 @@
+{
+  "_comment": "QQVGA = 0, QVGA = 1, VGA = 2, Depth = 0/1 (1-20FPS), Cam = 0-2 (1-30FPS) / 3-4 (1 FPS)",
+  "converters":
+  {
+    "front_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 2,
+      "fps"           : 30,
+      "recorder_fps"  : 5
+    },
+    "bottom_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 2,
+      "fps"           : 30,
+      "recorder_fps"  : 5
+    },
+    "depth_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 1,
+      "fps"           : 20,
+      "recorder_fps"  : 5
+    },
+    "ir_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 1,
+      "fps"           : 20,
+      "recorder_fps"  : 5
+    },
+    "info":
+    {
+      "enabled"       : true,
+      "frequency"     : 1
+    },
+    "logs":
+    {
+      "enabled"       : false,
+      "frequency"     : 1
+    },
+    "diag":
+    {
+      "enabled"       : true,
+      "frequency"     : 1
+    },
+    "imu_torso":
+    {
+      "enabled"       : true,
+      "frequency"     : 10
+    },
+    "imu_base":
+    {
+      "enabled"       : true,
+      "frequency"     : 10
+    },
+    "joint_states":
+    {
+      "enabled"       : true,
+      "frequency"     : 50
+    },
+    "laser":
+    {
+      "enabled"       : true,
+      "frequency"     : 10
+    },
+    "sonar":
+    {
+      "enabled"       : true,
+      "frequency"     : 10
+    },
+    "audio":
+    {
+      "enabled"       : true
+    },
+    "bumper":
+    {
+      "enabled"       : true
+    },
+    "touch_hand":
+    {
+      "enabled"       : true
+    },
+    "touch_head":
+    {
+      "enabled"       : true
+    },
+    "odom":
+    {
+      "enabled"       : true,
+      "frequency"     : 15
+    }
+  }
+}
+

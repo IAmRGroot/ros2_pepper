@@ -1,0 +1,361 @@
+repositories:
+  actionlib:
+    type: git
+    url: https://github.com/ros-gbp/actionlib-release.git
+    version: release/kinetic/actionlib
+  angles:
+    type: git
+    url: https://github.com/ros-gbp/geometry_angles_utils-release.git
+    version: release/kinetic/angles
+  catkin:
+    type: git
+    url: https://github.com/ros-gbp/catkin-release.git
+    version: release/kinetic/catkin
+  class_loader:
+    type: git
+    url: https://github.com/ros-gbp/class_loader-release.git
+    version: release/kinetic/class_loader
+  cmake_modules:
+    type: git
+    url: https://github.com/ros-gbp/cmake_modules-release.git
+    version: release/kinetic/cmake_modules
+  common_msgs/actionlib_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/actionlib_msgs
+  common_msgs/diagnostic_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/diagnostic_msgs
+  common_msgs/geometry_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/geometry_msgs
+  common_msgs/nav_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/nav_msgs
+  common_msgs/sensor_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/sensor_msgs
+  common_msgs/trajectory_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/trajectory_msgs
+  diagnostics/diagnostic_updater:
+    type: git
+    url: https://github.com/ros-gbp/diagnostics-release.git
+    version: release/kinetic/diagnostic_updater
+  gencpp:
+    type: git
+    url: https://github.com/ros-gbp/gencpp-release.git
+    version: release/kinetic/gencpp
+  geneus:
+    type: git
+    url: https://github.com/tork-a/geneus-release.git
+    version: release/kinetic/geneus
+  genlisp:
+    type: git
+    url: https://github.com/ros-gbp/genlisp-release.git
+    version: release/kinetic/genlisp
+  genmsg:
+    type: git
+    url: https://github.com/ros-gbp/genmsg-release.git
+    version: release/kinetic/genmsg
+  gennodejs:
+    type: git
+    url: https://github.com/RethinkRobotics-release/gennodejs-release.git
+    version: release/kinetic/gennodejs
+  genpy:
+    type: git
+    url: https://github.com/ros-gbp/genpy-release.git
+    version: release/kinetic/genpy
+  geometry/tf:
+    type: git
+    url: https://github.com/ros-gbp/geometry-release.git
+    version: release/kinetic/tf
+  geometry/eigen_conversions:
+    type: git
+    url: https://github.com/ros-gbp/geometry-release.git
+    version: release/kinetic/eigen_conversions
+  geometry2/tf2:
+    type: git
+    url: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2
+  geometry2/tf2_geometry_msgs:
+    type: git
+    url: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2_geometry_msgs
+  geometry2/tf2_kdl:
+    type: git
+    url: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2_kdl
+  geometry2/tf2_msgs:
+    type: git
+    url: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2_msgs
+  geometry2/tf2_py:
+    type: git
+    url: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2_py
+  geometry2/tf2_ros:
+    type: git
+    url: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2_ros
+  image_common/image_transport:
+    type: git
+    url: https://github.com/ros-gbp/image_common-release.git
+    version: release/kinetic/image_transport
+  kdl_parser/kdl_parser:
+    type: git
+    url: https://github.com/ros-gbp/kdl_parser-release.git
+    version: release/kinetic/kdl_parser
+  message_generation:
+    type: git
+    url: https://github.com/ros-gbp/message_generation-release.git
+    version: release/kinetic/message_generation
+  message_runtime:
+    type: git
+    url: https://github.com/ros-gbp/message_runtime-release.git
+    version: release/kinetic/message_runtime
+  naoqi_bridge_msgs:
+    type: git
+    url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
+    version: release/kinetic/naoqi_bridge_msgs
+  naoqi_driver:
+    type: git
+    url: https://github.com/esteve/naoqi_driver.git
+    version: bz2-cmake
+  naoqi_libqi:
+    type: git
+    url: https://github.com/esteve/libqi-release.git
+    version: boost-cmake
+  naoqi_libqicore:
+    type: git
+    url: https://github.com/esteve/libqicore-release.git
+    version: boost-cmake
+  opencv3:
+    type: git
+    url: https://github.com/ros-gbp/opencv3-release.git
+    version: release/kinetic/opencv3
+  orocos_kinematics_dynamics/orocos_kdl:
+    type: git
+    url: https://github.com/smits/orocos-kdl-release.git
+    version: release/kinetic/orocos_kdl
+  orocos_kinematics_dynamics/python_orocos_kdl:
+    type: git
+    url: https://github.com/smits/orocos-kdl-release.git
+    version: release/kinetic/python_orocos_kdl
+  pluginlib:
+    type: git
+    url: https://github.com/ros-gbp/pluginlib-release.git
+    version: release/kinetic/pluginlib
+  robot_state_publisher:
+    type: git
+    url: https://github.com/ros-gbp/robot_state_publisher-release.git
+    version: release/kinetic/robot_state_publisher
+  ros/rosbuild:
+    type: git
+    url: https://github.com/ros-gbp/ros-release.git
+    version: release/kinetic/rosbuild
+  ros/rosclean:
+    type: git
+    url: https://github.com/ros-gbp/ros-release.git
+    version: release/kinetic/rosclean
+  ros/roslang:
+    type: git
+    url: https://github.com/ros-gbp/ros-release.git
+    version: release/kinetic/roslang
+  ros/roslib:
+    type: git
+    url: https://github.com/ros-gbp/ros-release.git
+    version: release/kinetic/roslib
+  ros/rosunit:
+    type: git
+    url: https://github.com/ros-gbp/ros-release.git
+    version: release/kinetic/rosunit
+  ros_comm/message_filters:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/message_filters
+  ros_comm/rosbag:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosbag
+  ros_comm/rosbag_storage:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosbag_storage
+  ros_comm/rosconsole:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosconsole
+  ros_comm/roscpp:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/roscpp
+  ros_comm/rosgraph:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosgraph
+  ros_comm/roslaunch:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/roslaunch
+  ros_comm/roslz4:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/roslz4
+  ros_comm/rosmaster:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosmaster
+  ros_comm/rosmsg:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosmsg
+  ros_comm/rosnode:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosnode
+  ros_comm/rosout:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosout
+  ros_comm/rosparam:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosparam
+  ros_comm/rospy:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rospy
+  ros_comm/rosservice:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rosservice
+  ros_comm/rostest:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rostest
+  ros_comm/rostopic:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/rostopic
+  ros_comm/roswtf:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/roswtf
+  ros_comm/topic_tools:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/topic_tools
+  ros_comm/xmlrpcpp:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/kinetic/xmlrpcpp
+  ros_comm_msgs/rosgraph_msgs:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm_msgs-release.git
+    version: release/kinetic/rosgraph_msgs
+  ros_comm_msgs/std_srvs:
+    type: git
+    url: https://github.com/ros-gbp/ros_comm_msgs-release.git
+    version: release/kinetic/std_srvs
+  rosbag_migration_rule:
+    type: git
+    url: https://github.com/ros-gbp/rosbag_migration_rule-release.git
+    version: release/kinetic/rosbag_migration_rule
+  rosconsole_bridge:
+    type: git
+    url: https://github.com/ros-gbp/rosconsole_bridge-release.git
+    version: release/kinetic/rosconsole_bridge
+  roscpp_core/cpp_common:
+    type: git
+    url: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/kinetic/cpp_common
+  roscpp_core/roscpp_serialization:
+    type: git
+    url: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/kinetic/roscpp_serialization
+  roscpp_core/roscpp_traits:
+    type: git
+    url: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/kinetic/roscpp_traits
+  roscpp_core/rostime:
+    type: git
+    url: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/kinetic/rostime
+  rospack:
+    type: git
+    url: https://github.com/ros-gbp/rospack-release.git
+    version: release/kinetic/rospack
+  std_msgs:
+    type: git
+    url: https://github.com/ros-gbp/std_msgs-release.git
+    version: release/kinetic/std_msgs
+  urdf:
+    type: git
+    url: https://github.com/esteve/urdf.git
+    version: missing-dependencies
+  vision_opencv/cv_bridge:
+    type: git
+    url: https://github.com/ros-gbp/vision_opencv-release.git
+    version: release/kinetic/cv_bridge
+  vision_opencv/image_geometry:
+    type: git
+    url: https://github.com/ros-gbp/vision_opencv-release.git
+    version: release/kinetic/image_geometry
+  rgbd_launch:
+    type: git
+    url: https://github.com/ros-gbp/rgbd_launch-release.git
+    version: release/kinetic/rgbd_launch
+  common_msgs/stereo_msgs:
+    type: git
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/kinetic/stereo_msgs
+  image_pipeline/image_proc:
+    type: git
+    url: https://github.com/ros-gbp/image_pipeline-release.git
+    version: release/kinetic/image_proc
+  image_pipeline/depth_image_proc:
+    type: git
+    url: https://github.com/ros-gbp/image_pipeline-release.git
+    version: release/kinetic/depth_image_proc
+  dynamic_reconfigure:
+    type: git
+    url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
+    version: release/kinetic/dynamic_reconfigure
+  nodelet_core/nodelet:
+    type: git
+    url: https://github.com/ros-gbp/nodelet_core-release.git
+    version: release/kinetic/nodelet
+  nodelet_core/nodelet_topic_tools:
+    type: git
+    url: https://github.com/ros-gbp/nodelet_core-release.git
+    version: release/kinetic/nodelet_topic_tools
+  bond_core/bondcpp:
+    type: git
+    url: https://github.com/ros-gbp/bond_core-release.git
+    version: release/kinetic/bondcpp
+  bond_core/bond:
+    type: git
+    url: https://github.com/ros-gbp/bond_core-release.git
+    version: release/kinetic/bond
+  bond_core/smclib:
+    type: git
+    url: https://github.com/ros-gbp/bond_core-release.git
+    version: release/kinetic/smclib
+  image_transport_plugins/compressed_depth_image_transport:
+    type: git
+    url: https://github.com/ros-gbp/image_transport_plugins-release.git
+    version: release/kinetic/compressed_depth_image_transport
+  image_transport_plugins/compressed_image_transport:
+    type: git
+    url: https://github.com/ros-gbp/image_transport_plugins-release.git
+    version: release/kinetic/compressed_image_transport
+  rosauth:
+    type: git
+    url: https://github.com/esteve/rosauth.git
+    version: fix-openssl 
