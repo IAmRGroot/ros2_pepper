@@ -1,6 +1,6 @@
 # Disclaimer
 
-This repo is not maintained. It is used as a base for my master thesis (https://github.com/Robert16296/Pepper-Dev). Updated instructions for this version can also be found on that repo.
+This repo is not maintained. It is used as a base for my master thesis. Updated instructions for this version can also be found on that repo.
 
 Changes
 
